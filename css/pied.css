@@ -1,0 +1,45 @@
+footer{
+  padding-top: 2%;
+  background-color: #005bea;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:#bf2eee;
+  font-size: 1.4em;
+}
+.mention{
+  text-align: center;
+  padding-right: 5%;
+}
+
+.mention > ul{
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  font-size: 0.8em;
+}
+
+.contact{
+  text-align: center;
+  padding-left: 5%;
+}
+
+.contact > ul{
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  font-size: 0.8em;
+}
+
+.entreprise{
+  text-align: center;
+}
+
+.entreprise > ul{
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  font-size: 0.8em;
+}

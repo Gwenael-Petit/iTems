@@ -1,0 +1,83 @@
+#text {
+  margin-top: 15%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#title{
+  height: 25%;
+  width: 100%;
+  position: absolute;
+  margin-top: 10%;
+  z-index: 1;
+  text-align: center;
+  color: #005BEA;
+  
+}
+
+#title::before{
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 0.1px;
+  width   : 50%; 
+  border-top: 5px solid #bf2eee;
+  border-bottom:5px solid #bf2eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.intro{
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.intro > h2{
+  color: #005BEA;
+  font-size: 2.5em;
+  
+}
+
+.services{
+  color: white;
+  padding-top: 2%;
+  height: 1000px;
+  background-color: #bf2eee;
+  text-align: center;
+}
+
+.bloc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 1%;
+  margin-left: 1%;
+  height: 550px;
+}
+
+.sousbloc{
+  width: 48%;
+  text-align: left;
+}
+
+.sousbloc > h2{
+  color: #005BEA;
+  font-size: 2em;
+}
+
+.sousbloc >h3{
+  font-size: 1.5em;
+  padding: 1% 5% 1% 5%;
+}
+
+.avis{
+  height: 450px;
+  padding-left: 8%; 
+  padding-right: 8%; 
+}
